@@ -5,7 +5,7 @@ import subprocess
 import importlib.metadata
 
 # Dependencies Check and Install Function
-required_packages = ['pandas', 'scikit-learn', 'joblib', 'seaborn', 'matplotlib', 'torch', 'transformers', 'datasets', 'accelerate', 'dotenv', 'google-generativeai', 'pyclean']
+required_packages = ['pandas', 'scikit-learn', 'joblib', 'seaborn', 'matplotlib', 'torch', 'transformers', 'datasets', 'accelerate', 'dotenv', 'google-generativeai']
 def install(package):
     subprocess.check_call([sys.executable, "-m", "pip", "install", package])
 
